@@ -47,3 +47,11 @@ If you get warning showed below:
   3- Reboot	
 
 ```
+**Common Commands**
+```
+1-bin/zookeeper-server-start.sh config/zookeeper.properties
+2-bin/kafka-server-start.sh config/server.properties
+3-bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --property print.timestamp=true --topic Stats
+
+
+```
